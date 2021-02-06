@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0L6pBPQ3Lp2iLRQG/wOHBDMi/wgOaDtvDue4o/iBLpee+X91JPetUqMLILu050IuR1G8UA6qNfd7WDBgZejzig==",
+  "dgSpecHash": "Ow9mjvbcMOZ1Olv3VaMtqR2zYyczvS58SxI4EulaDO4e4oM8AV9QrAp9yxigAon8u+5adOmygbkGQ2jezVmprg==",
   "success": true,
-  "projectFilePath": "G:\\BME-VIK\\8.felev\\Argon\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+  "projectFilePath": "G:\\BME-VIK\\8.felev\\DotNetProjects\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

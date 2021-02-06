@@ -8806,11 +8806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\BME-VIK\\8.felev\\Argon\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+      "projectUniqueName": "G:\\BME-VIK\\8.felev\\DotNetProjects\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
       "projectName": "SimpleCalculator",
-      "projectPath": "G:\\BME-VIK\\8.felev\\Argon\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+      "projectPath": "G:\\BME-VIK\\8.felev\\DotNetProjects\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
       "packagesPath": "C:\\Users\\Tamás\\.nuget\\packages\\",
-      "outputPath": "G:\\BME-VIK\\8.felev\\Argon\\SimpleCalculator\\SimpleCalculator\\obj\\",
+      "outputPath": "G:\\BME-VIK\\8.felev\\DotNetProjects\\SimpleCalculator\\SimpleCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

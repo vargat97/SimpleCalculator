@@ -32,6 +32,7 @@
             <div class="form-group">
                 <input type="submit" value="Calculate" class="btn btn-primary" />
                 <label class="form-group">The Result is: @Html.DisplayFor(model => model.CalculationModel.Result)</label>
+                <div asp-validation-summary="All" class="text-danger"></div>
                 @*<span asp-validation-for="CalculationModel.Result" class="text-danger"></span>*@
             </div>
 

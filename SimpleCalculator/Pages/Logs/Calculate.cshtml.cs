@@ -56,7 +56,8 @@ namespace SimpleCalculator.Pages.Logs
             return Page();
         }
 
-        private double CalculateResult()
+
+            private double CalculateResult()
         {
             double result;
             switch (CalculationModel.CalculationMethod)
