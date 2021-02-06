@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ow9mjvbcMOZ1Olv3VaMtqR2zYyczvS58SxI4EulaDO4e4oM8AV9QrAp9yxigAon8u+5adOmygbkGQ2jezVmprg==",
+  "dgSpecHash": "cM4ebI1x7ivujq9wP9ZIm9J1VuNJvOQFvBz8uViWjff2hY/ahGn8GKfos+DoyYuTSRLr3TV9thc0aWhbkv5KIQ==",
   "success": true,
   "projectFilePath": "G:\\BME-VIK\\8.felev\\DotNetProjects\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tamás\\.nuget\\packages\\jquery\\1.4.4\\jquery.1.4.4.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\jquery.validation\\1.19.3\\jquery.validation.1.19.3.nupkg.sha512",
     "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

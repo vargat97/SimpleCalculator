@@ -6,7 +6,7 @@
 }
 
 
-<h4>Simpla Calculator</h4>
+<h4>Simple Calculator</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -32,8 +32,8 @@
             <div class="form-group">
                 <input type="submit" value="Calculate" class="btn btn-primary" />
                 <label class="form-group">The Result is: @Html.DisplayFor(model => model.CalculationModel.Result)</label>
+                @*For the DivideByZero validation:*@
                 <div asp-validation-summary="All" class="text-danger"></div>
-                @*<span asp-validation-for="CalculationModel.Result" class="text-danger"></span>*@
             </div>
 
         </form>
@@ -41,7 +41,7 @@
 </div>
 
 <div>
-    <a asp-page="Index">Back</a>
+    <a asp-page="/Index">Back</a>
 </div>
 
 @section Scripts {

@@ -27,6 +27,9 @@ namespace SimpleCalculator.Pages.Logs
 
         private CalculationModel calculationModel;
 
+        // Modified property, bc of the set branch
+        // It has to calculate the Result, before the db operation.
+        // --> that means, if the datas not valid, datas will not logged into db
         [BindProperty]
         public CalculationModel CalculationModel {
             get {
@@ -51,34 +54,20 @@ namespace SimpleCalculator.Pages.Logs
             _context.CalculationModel.Add(CalculationModel);
             await _context.SaveChangesAsync();
 
-           // ModelState.Remove("Result");
-            //return RedirectToPage("./Logs/Create");
             return Page();
         }
 
 
             private double CalculateResult()
         {
-            double result;
-            switch (CalculationModel.CalculationMethod)
+            var result = CalculationModel.CalculationMethod switch
             {
-                case CalculationMethod.Addition:
-                    result = CalculationModel.Number1 + CalculationModel.Number2;
-                    break;
-                case CalculationMethod.Subtraction:
-                    result = CalculationModel.Number1 - CalculationModel.Number2;
-                    break;
-                case CalculationMethod.Multiplication:
-                    result = CalculationModel.Number1 * CalculationModel.Number2;
-                    break;
-                case CalculationMethod.Division:
-                    result = CalculationModel.Number1 / CalculationModel.Number2;
-                    break;
-
-                default:
-                    result = 0;
-                    break;
-            }
+                CalculationMethod.Addition => CalculationModel.Number1 + CalculationModel.Number2,
+                CalculationMethod.Subtraction => CalculationModel.Number1 - CalculationModel.Number2,
+                CalculationMethod.Multiplication => CalculationModel.Number1 * CalculationModel.Number2,
+                CalculationMethod.Division => CalculationModel.Number1 / CalculationModel.Number2,
+                _ => 0,
+            };
             return result;
         }
     }
