@@ -12,18 +12,18 @@ namespace SimpleCalculator.Models
         public int ID { get; set; }
 
         [Display(Name = "First Number")]
-        [RegularExpression("(.*[0-9].*)|(.*[.].*[0-9].*)")]
         public double Number1 { get; set;}
 
     
         [Display(Name ="Second Number")]
-        [RegularExpression("(.*[0-9].*)|(.*[.].*[0-9].*)")]
         public double Number2 { get; set; }
 
-  
+        [Display(Name = "")]
+        public CalculationMethod CalculationMethod { get; set; }
+
+        [NotDivideByZero]
         public double Result { get; set; }
 
-        [Display(Name ="")]
-        public CalculationMethod CalculationMethod { get; set; }
+
     }
 }
